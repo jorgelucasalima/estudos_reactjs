@@ -6,7 +6,20 @@ esse é meu nome
 */
 
 
+//temporizadores
 
+function acao() {
+    document.write("Executando ... </br>");
+
+}
+
+setTimeout(acao,3000)
+
+//executa de tempo em tempo
+//setInterval(acao,1000)
+
+
+/*
 
 //switch
 
@@ -34,11 +47,12 @@ function pedir(){
             break
         default:
             alert("XAU")
+            break
     
     }
 }
 
-/*
+
 
 // for = para
 for (a = 0; a < 10; a++) {
