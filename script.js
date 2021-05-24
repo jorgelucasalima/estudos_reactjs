@@ -5,6 +5,29 @@
 esse é meu nome
 */
 
+
+
+
+
+// for = para
+for (a = 0; a < 10; a++) {
+    document.write("</br> O valor do a é :" + a);
+}
+
+
+
+
+//while = enquanto
+
+x = 0
+while (x < 10) {
+    document.write("</br> o valor do x é " + x)
+    x++
+}
+
+
+
+
 //função Entrar
 
 function entrar() {
@@ -28,3 +51,11 @@ function entrar2(nome) {
 
     area.innerHTML = 'Seu nome é ' + nome + " " + texto + " " + idade
 }
+
+
+if (lista.indexOf('mano') > -1) {
+    alert('Esse nome está na lista')
+}else{
+    alert('Seu nome não está na lista')
+}
+
