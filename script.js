@@ -8,6 +8,37 @@ esse é meu nome
 
 
 
+//switch
+
+document.write("</br> escolha seu pedido: ")
+document.write("</br> (0 - Vale sorvete) ")
+document.write("</br> (1 - Vale presente) ")
+document.write("</br> (2 - vale feijão) ")
+document.write("</br> (3 - Vale um aviso) </br></br>")
+
+function pedir(){
+
+    x = prompt('oque deseja pedir :')
+    switch(x){
+        case "0":
+            alert("o x vale 0")
+            break
+        case "1":
+            alert("o x vale presente")
+            break
+        case "2":
+            alert("o x vale 2")
+            break
+        case "3":
+            alert("Vai tomar um suco")
+            break
+        default:
+            alert("XAU")
+    
+    }
+}
+
+/*
 
 // for = para
 for (a = 0; a < 10; a++) {
@@ -24,7 +55,6 @@ while (x < 10) {
     document.write("</br> o valor do x é " + x)
     x++
 }
-
 
 
 
@@ -59,3 +89,4 @@ if (lista.indexOf('mano') > -1) {
     alert('Seu nome não está na lista')
 }
 
+*/
