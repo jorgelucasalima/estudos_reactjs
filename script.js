@@ -9,6 +9,17 @@ esse é meu nome
 
 
 
+//função anonima
+function adicionar (...numeros){
+
+    let total = numeros.reduce((total,proximo) => {
+        return total + proximo
+    })
+
+    console.log(total)
+}
+
+adicionar(1,2,3,4,5)
 
 
 
@@ -18,6 +29,22 @@ esse é meu nome
 
 
 /*
+const listaNumeros = [1,2,3,4,5,6,7,8]
+const novaListaNumeros = listaNumeros.map(function(item, index) {
+    return item * 5
+})
+
+console.log(novaListaNumeros)
+
+
+const soma = listaNumeros.reduce()
+
+
+
+
+
+
+
 
 
 function cadastrar(usuarios, ...novosusuarios) {
