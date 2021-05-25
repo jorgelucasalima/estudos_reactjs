@@ -7,9 +7,38 @@ esse é meu nome
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+function cadastrar(usuarios, ...novosusuarios) {
+    let totalusuarios = [
+        ...usuarios,
+        ...novosusuarios
+    ]
+
+    return console.log(totalusuarios)
+
+}
+
+
+let usuarios = ["Lucas", "Douglas"]
+let novosusuarios = cadastrar(usuarios, "henrique")
+
+
 // web Storege
 
 
+/*
 
 function cadastroPessoa(info) {
     let novosDados = {
@@ -23,13 +52,6 @@ function cadastroPessoa(info) {
 
 console.log (cadastroPessoa({nome:"Manoel", sobrenome:"Neto",idade:23}))
 
-
-
-
-
-
-
-/*
 
 // variavel se
 var nome = "lucas"
