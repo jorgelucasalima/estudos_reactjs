@@ -11,6 +11,32 @@ esse é meu nome
 
 
 
+function cadastroPessoa(info) {
+    let novosDados = {
+        ...info,
+        cargo:"engenheiro",
+        status:'aceito',
+    }
+
+    return novosDados
+}
+
+console.log (cadastroPessoa({nome:"Manoel", sobrenome:"Neto",idade:23}))
+
+
+
+
+
+
+
+/*
+
+// variavel se
+var nome = "lucas"
+let nome = "lucas"
+const nome = "lucas"
+
+
 var nome = ''
 if (typeof localStorage.nome == 'undefined') {
     localStorage.nome = prompt('Digite seu nome :')
