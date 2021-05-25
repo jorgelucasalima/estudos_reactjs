@@ -6,6 +6,24 @@ esse é meu nome
 */
 
 
+
+// web Storege
+
+
+
+var nome = ''
+if (typeof localStorage.nome == 'undefined') {
+    localStorage.nome = prompt('Digite seu nome :')
+
+}
+
+nome = localStorage.nome
+document.getElementById('nome').innerHTML = nome
+
+
+
+
+/*
 //temporizadores
 
 function acao() {
@@ -13,10 +31,13 @@ function acao() {
 
 }
 
-setTimeout(acao,3000)
+//executa unica vez
+//setTimeout(acao,3000)
 
 //executa de tempo em tempo
-//setInterval(acao,1000)
+var timer = setInterval(acao,1000)
+//
+
 
 
 /*
