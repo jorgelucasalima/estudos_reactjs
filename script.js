@@ -9,6 +9,39 @@ esse é meu nome
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+//includes
+//let nomes = ["Lucas", "Juliana", "Mano"]
+//console.log(nomes.includes('Luca'))
+
+//endsWith
+
+let nome = "Lucas"
+//console.log(nome.endsWith('cas'))
+
+
+
+//startsWith
+
+console.log(nome.startsWith('luc'))
+
+
+
+
+
 //função anonima
 function adicionar (...numeros){
 
@@ -28,7 +61,7 @@ adicionar(1,2,3,4,5)
 
 
 
-/*
+
 const listaNumeros = [1,2,3,4,5,6,7,8]
 const novaListaNumeros = listaNumeros.map(function(item, index) {
     return item * 5
