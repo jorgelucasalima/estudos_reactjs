@@ -1,3 +1,4 @@
+//---COMENTARIOS EXEMPLOS
 //esse é meu nome
 //var nome = "Lucas";
 
@@ -6,19 +7,22 @@ esse é meu nome
 */
 
 
+//Some Every
 
 
+/*
+
+let nomes = [
+    {nome:"Lucas", idade:12},
+    {nome:"Juli", idade:13},
+    {nome:"Mano", idade:22},
+    {nome:"Manooo", idade:133},
+]
+
+//console.log(nomes.some(nome => nome === "Ayra"))
 
 
-
-
-
-
-
-
-
-
-
+console.log(nomes.every(nome => nome.idade >= 12))
 
 
 
